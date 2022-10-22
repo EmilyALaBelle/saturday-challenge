@@ -1,9 +1,11 @@
 {
   "hosting": {
-    "rewrites": [{
-      "source": "**",
-      "function": "api"
-    }],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "api"
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
